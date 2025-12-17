@@ -1,0 +1,93 @@
+{
+    "data": {
+        "Results": {
+            "Count": 4,
+            "Items": [
+                {
+                    "World": {
+                        "HexX": 19,
+                        "HexY": 10,
+                        "Sector": "Spinward Marches",
+                        "Uwp": "A788899-C",
+                        "SectorX": -4,
+                        "SectorY": -1,
+                        "Name": "Regina",
+                        "SectorTags": "Official OTU"
+                    }
+                },
+                {
+                    "World": {
+                        "HexX": 22,
+                        "HexY": 6,
+                        "Sector": "Phlask",
+                        "Uwp": "A576231-A",
+                        "SectorX": 3,
+                        "SectorY": 3,
+                        "Name": "Reginald",
+                        "SectorTags": "OTU"
+                    }
+                },
+                {
+                    "Subsector": {
+                        "Sector": "Spinward Marches",
+                        "Index": "C",
+                        "SectorX": -4,
+                        "SectorY": -1,
+                        "Name": "Regina",
+                        "SectorTags": "Official OTU"
+                    }
+                },
+                {
+                    "World": {
+                        "HexX": 27,
+                        "HexY": 1,
+                        "Sector": "Virgo",
+                        "Uwp": "B235844-9",
+                        "SectorX": -148,
+                        "SectorY": -20,
+                        "Name": "Reginante",
+                        "SectorTags": "Farway Faraway"
+                    }
+                }
+            ]
+        }
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "cache-control": "public, max-age=3600",
+        "content-length": "406",
+        "content-type": "application/json"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "adapter": [
+            "xhr",
+            "http",
+            "fetch"
+        ],
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "method": "get",
+        "url": "https://travellermap.com/api/search?q=Regina",
+        "allowAbsoluteUrls": true
+    },
+    "request": {}
+}
